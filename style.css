@@ -122,6 +122,11 @@ button {
 }
 
 /* TODO list*/
+.todo__list .completed__label {
+  text-decoration: none;
+  color: #333;
+}
+
 .todo__item {
   display: flex;
   justify-content: space-between;
@@ -182,7 +187,8 @@ button {
   margin: 0 10px;
 }
 
-.completed__label {
+.completed__label,
+.completed__list .todo__label {
   text-decoration: line-through;
   color: #888;
 }
