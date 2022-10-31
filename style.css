@@ -79,10 +79,11 @@ button {
 }
 
 @media (max-width: 768px) {
-  /* ! */
+
   .matrix {
     text-align: center;
   }
+
 }
 
 .matrix__image {
